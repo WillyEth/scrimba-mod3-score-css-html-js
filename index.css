@@ -1,0 +1,93 @@
+@font-face{
+    font-family: "Score-Sans";
+     src: url("CursedTimerUlil-Aznm.ttf")
+    }
+
+body {
+ 
+  margin: 0;
+  background: linear-gradient(#e66465, #9198e5);
+  color: #eeeeee;
+
+ 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  
+ 
+}
+
+.score_card {
+  padding-top: 10;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.score {
+  width: 200px;
+  padding: 50px;
+  margin: 20px 20px;
+  text-align: center;
+  background: #080001;
+  color: #F94F6D;
+  font-family: Score-Sans;
+  border-radius: 20px;
+  box-shadow: 5px 5px;
+  font-size: 40px;
+}
+
+
+.btn_container_h1 {
+    padding-top: 50;  
+    display: flex;
+    justify-content: center;
+  
+}
+
+h3 {
+
+    margin: 150px 12px;  
+}
+
+
+ .btn {
+    width: 50px;
+    font-family: Score-Sans;
+    padding: 20 50 20 20; 
+    border: 1px solid black;
+    background-color: #0369a1;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 2px 2px;
+  
+  } 
+  .btnReset
+    {
+    width: 75px;
+    height: 75px;
+    font-family: Arial;
+    border: 2px solid black;
+    border-radius: 100%;
+    text-align: center;
+    background-color:blue;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 2px 12px;
+  } 
+
+  .btnReset:active {
+    background-color: #5B21B6;
+     }
+
+  .btn:active {
+    background-color: #5B21B6;
+  }
+
+   
+ 
